@@ -1,0 +1,11 @@
+Building the container
+docker build -t node-alpinse:dipayan .
+
+running the conatiner 
+docker run -dit -p 3000:80 --name nodebox node-alpinse:dipayan
+
+
+port = 3000 --> is the port on the host machine
+port = 80 -->   is the port on container 
+
+we have to explicitly tell docker to publish the port

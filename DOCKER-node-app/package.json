@@ -1,0 +1,25 @@
+{
+  "name": "docker-node-app",
+  "version": "1.0.0",
+  "description": "Dockerfile node application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipayandutta/docker-example.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Dipayan Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "express":"^4.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/dipayandutta/docker-example/issues"
+  },
+  "homepage": "https://github.com/dipayandutta/docker-example#readme"
+}
